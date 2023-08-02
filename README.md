@@ -90,6 +90,7 @@ SELECT AVG(`follower_count`) FROM member;
 
 # 第五題
 前置作業:
+```
 // 建立資料表
 CREATE TABLE `message`(
 `id` BIGINT PRIMARY KEY AUTO_INCREMENT,
