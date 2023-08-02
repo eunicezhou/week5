@@ -23,7 +23,8 @@ CREATE TABLE `member`(
 DESCRIBE `member`;
 ```
 執行結果:
-![[Pasted image 20230731181105.png]]
+![image](https://github.com/eunicezhou/week5/assets/131647842/efe96c15-cda4-44fd-83b9-b98067ac9fee)
+
 # 第三題
 1. 使⽤ INSERT 指令新增⼀筆資料到 member 資料表中，這筆資料的 username 和 password 欄位必須是 test。接著繼續新增⾄少 4 筆隨意的資料。使⽤ SELECT 指令取得所有在 member 資料表中的會員資料。
 ![image](https://github.com/eunicezhou/week5/assets/131647842/9553227a-04be-46bf-a137-d2c19701c0f4)
