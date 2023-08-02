@@ -112,6 +112,7 @@ INSERT INTO `message` (`member_id`,`content`,`like_count`,`time`) VALUES (3,"Hap
 INSERT INTO `message` (`member_id`,`content`,`like_count`,`time`) VALUES (5,"To make people believe I'm still alive",1000,"2023/05/08");
 INSERT INTO `message` (`member_id`,`content`,`like_count`,`time`) VALUES (4,"520 sunglasses holiday",2400,"2023/05/20");
 ```
+
 1. 使⽤ SELECT 搭配 JOIN 語法，取得所有留⾔，結果須包含留⾔者的姓名。
 ```
 SELECT member.name,message.content FROM member INNER JOIN message ON member.id = message.member_id ;
