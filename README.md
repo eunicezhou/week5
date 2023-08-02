@@ -15,3 +15,10 @@
 ![image](https://github.com/eunicezhou/week5/assets/131647842/4f792874-f01a-4ae3-b23f-66534a7d7a66)
 6. 使⽤ UPDATE 指令更新欄位 username 是 test 的會員資料，將資料中的 name 欄位改 成 test2。
 ![image](https://github.com/eunicezhou/week5/assets/131647842/f5b2d5ad-a2f2-4c2b-aae0-ec2c9523fb80)
+# 第四題
+1. 取得 member 資料表中，總共有幾筆資料 ( 幾位會員 )。
+![image](https://github.com/eunicezhou/week5/assets/131647842/0db78863-f907-48aa-ba58-a483f2406228)
+2. 取得 member 資料表中，所有會員 follower_count 欄位的總和。
+![image](https://github.com/eunicezhou/week5/assets/131647842/ecdc0262-39ce-4031-b50b-43714c878818)
+4. 取得 member 資料表中，所有會員 follower_count 欄位的平均數。
+![image](https://github.com/eunicezhou/week5/assets/131647842/6912a4cc-3466-428b-bf04-49aecf0d4b88)
