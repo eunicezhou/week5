@@ -1,8 +1,29 @@
 # week5
 # 第二題
 在資料庫中，建立會員資料表 member。並設定欄位格式:
-![image](https://github.com/eunicezhou/week5/assets/131647842/f513250f-c6dc-4129-a23a-ce2fd85242a8)
-
+1. 創建一個website的資料庫
+```mysql
+CREATE DATABASE `website`;
+SHOW DATABASES;
+USE `website`;
+```
+2. 建立一個名稱為member的資料表，並將每個欄位的欄位名稱及資料型態格式訂好
+```mysql
+CREATE TABLE `member`(
+`id` BIGINT PRIMARY KEY AUTO_INCREMENT,
+`name` VARCHAR(255) NOT NULL,
+`username` VARCHAR(255) NOT NULL,
+`password` VARCHAR(255) NOT NULL,
+`follower_count` INT UNSIGNED NOT NULL DEFAULT 0,
+`time` DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+```
+3. 檢查一下欄位資料型態以及格式
+```mysql
+DESCRIBE `member`;
+```
+執行結果:
+![[Pasted image 20230731181105.png]]
 # 第三題
 1. 使⽤ INSERT 指令新增⼀筆資料到 member 資料表中，這筆資料的 username 和 password 欄位必須是 test。接著繼續新增⾄少 4 筆隨意的資料。使⽤ SELECT 指令取得所有在 member 資料表中的會員資料。
 ![image](https://github.com/eunicezhou/week5/assets/131647842/9553227a-04be-46bf-a137-d2c19701c0f4)
