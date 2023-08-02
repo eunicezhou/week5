@@ -3,7 +3,7 @@
 在資料庫中，建立會員資料表 member。並設定欄位格式:
 ![image](https://github.com/eunicezhou/week5/assets/131647842/f513250f-c6dc-4129-a23a-ce2fd85242a8)
 
-#第三題
+# 第三題
 1. 使⽤ INSERT 指令新增⼀筆資料到 member 資料表中，這筆資料的 username 和 password 欄位必須是 test。接著繼續新增⾄少 4 筆隨意的資料。使⽤ SELECT 指令取得所有在 member 資料表中的會員資料。
 ![image](https://github.com/eunicezhou/week5/assets/131647842/9553227a-04be-46bf-a137-d2c19701c0f4)
 2. 使⽤ SELECT 指令取得所有在 member 資料表中的會員資料，並按照 time 欄位，由近到遠排序。
