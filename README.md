@@ -23,6 +23,7 @@ CREATE TABLE `member`(
 DESCRIBE `member`;
 ```
 執行結果:
+
 ![image](https://github.com/eunicezhou/week5/assets/131647842/0480432f-55b7-4cef-9b9d-9c825ad15d13)
 
 # 第三題
