@@ -16,6 +16,7 @@
 ![image](https://github.com/eunicezhou/week5/assets/131647842/4f792874-f01a-4ae3-b23f-66534a7d7a66)
 6. 使⽤ UPDATE 指令更新欄位 username 是 test 的會員資料，將資料中的 name 欄位改 成 test2。
 ![image](https://github.com/eunicezhou/week5/assets/131647842/f5b2d5ad-a2f2-4c2b-aae0-ec2c9523fb80)
+
 # 第四題
 1. 取得 member 資料表中，總共有幾筆資料 ( 幾位會員 )。
 ![image](https://github.com/eunicezhou/week5/assets/131647842/0db78863-f907-48aa-ba58-a483f2406228)
@@ -23,3 +24,11 @@
 ![image](https://github.com/eunicezhou/week5/assets/131647842/ecdc0262-39ce-4031-b50b-43714c878818)
 4. 取得 member 資料表中，所有會員 follower_count 欄位的平均數。
 ![image](https://github.com/eunicezhou/week5/assets/131647842/6912a4cc-3466-428b-bf04-49aecf0d4b88)
+
+# 第五題
+1. 使⽤ SELECT 搭配 JOIN 語法，取得所有留⾔，結果須包含留⾔者的姓名。
+![image](https://github.com/eunicezhou/week5/assets/131647842/b147bc70-3af8-46cd-ab8c-e5f577b3b46d)
+2. 使⽤ SELECT 搭配 JOIN 語法，取得 member 資料表中欄位 username 是 test 的所有留⾔，資料中須包含留⾔者的姓名。
+![image](https://github.com/eunicezhou/week5/assets/131647842/200cedc2-65c1-45f7-b0e3-3c4a4d177cf6)
+3. 使⽤ SELECT、SQL Aggregate Functions 搭配 JOIN 語法，取得 member 資料表中欄位 username 是 test 的所有留⾔平均按讚數。
+![image](https://github.com/eunicezhou/week5/assets/131647842/f6953333-4215-434c-a070-06d71f1d285e)
